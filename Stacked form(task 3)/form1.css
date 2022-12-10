@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   }
+
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 15px 30px;
+    padding: 8px;
+    font-size: 18px;
+    color: rgb(31, 31, 116);
+    font-weight: 700;
+    background-image: url(bg.jpg);
+}
+
+.container{
+    background-color: rgb(156, 157, 160,0.5);
+    border: 2px solid rgb(15, 93, 138);
+    border-radius: 5px;
+    padding: 20px;
+}
+#main_heading{
+    text-align: center;
+    background-color: rgb(191, 226, 255,0.8);
+    display: block;
+    margin: auto;
+    width: 33%;
+    border-radius: 4px;
+    font-family: 'Libre Baskerville', serif;
+    padding: 4px;
+    width: 32%;
+    border-radius: 5px;
+}
+
+.field_box{
+    margin: 10px;
+}
+
+input[type="text"],input[type="email"],input[type="number"],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    margin: 2px 0px;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    width: 33%;
+    padding: 12px 20px;
+    background-color: rgb(191, 226, 255,0.8);
+    color:rgb(15, 90, 160);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(26, 154, 17, 0.6);
+    color: rgb(193, 211, 243);
+    width: 32%;
+    border-radius: 5px;
+}
+
+#fname, #mname{
+    width: 32%;
+    margin: 10px;
+    margin-left: 0;
+}
+#lname{
+    width: 33%;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+#address{
+    min-height: 50px;
+    width: 100%;
+    max-width: auto;
+    font-family: sans-serif;
+    font-size: 13.5px;
+}
